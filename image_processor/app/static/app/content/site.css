@@ -1,0 +1,92 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+hr {
+    border-color: black;
+}
+.validation-summary-valid {
+    display: none;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.operation-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    background-color: #cce5ff; /* Light blue background color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-content:center;
+}
+
+    .operation-btn:hover {
+        background-color: #99c2ff; /* Lighter blue background color on hover */
+    }
+
+    .operation-btn:active {
+        background-color: #66a3ff; /* Even lighter blue background color on click */
+    }
+
+.operation-btn.clicked {
+    background-color: #ffc107 !important; /* Yellow background color for clicked button */
+}
+
+.reset-btn {
+    background-color: grey; /* Orange background color for reset button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.input-field {
+    display: none;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.result, .thumbnails, .imageForm {
+    align-content: center;
+}

@@ -1,0 +1,58 @@
+
+
+.operation-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888888;
+    background-color: #cce5ff; /* Light blue background color */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .operation-btn:hover {
+        background-color: #99c2ff; /* Lighter blue background color on hover */
+    }
+
+    .operation-btn:active {
+        background-color: #66a3ff; /* Even lighter blue background color on click */
+    }
+
+.clicked {
+    background-color: #ffc107 !important; /* Yellow background color for clicked button */
+}
+
+hr{
+    border-color:black;
+}
+
+.input-field {
+    display: none;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+    color:cornflowerblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2,h3,h4{
+    font-size: xx-large;
+}
+
+/* Center everything */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightsteelblue;
+}
+
+/* Make submission button more blue */
+button[type="submit"] {
+    background-color: royalblue;
+    color: white;
+}
+
+
