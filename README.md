@@ -12,31 +12,30 @@ Features:
 6) Rotate Left/Right: Rotate images left or right by 90 degrees.
 
 Getting Started
-  Prerequisites
-  .NET 5.0 or higher
-  Visual Studio 2019 or higher
+  
+Prerequisites:
+1) .NET 5.0 or higher
+2) Visual Studio 2019 or higher
 
-Installation
-  Clone the repository:
-  sh
-  Copy code
-  git clone https://github.com/AjerLodhi/image_processor-5200.git
-  Open the solution file image_processor.sln in Visual Studio.
-  Build the solution to restore the necessary packages and dependencies.
+Installation:
+1) Clone the repository: sh
+2) Copy code: git clone https://github.com/AjerLodhi/image_processor-5200.git
+3) Open the solution file image_processor.sln in Visual Studio.
+4) Build the solution to restore the necessary packages and dependencies.
 
-Usage
-Run the application from Visual Studio.
-Use the GUI to upload an image and apply the desired transformations.
-Save the processed image to your local machine.
+Usage:
+1) Run the application from Visual Studio.
+2) Use the GUI to upload an image and apply the desired transformations.
+3) Save the processed image to your local machine.
 
-Code Structure
-Controllers: Handles the user interface and interaction.
-Services: Contains the business logic for image processing.
-Utilities: Helper functions for common tasks.
-Models: Data models representing images and their properties.
+Code Structure:
+1) Controllers: Handles the user interface and interaction.
+2) Services: Contains the business logic for image processing.
+3) Utilities: Helper functions for common tasks.
+4) Models: Data models representing images and their properties.
 
-Contribution
+Contribution: 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-Contact
+Contact: 
 For any inquiries or feedback, please contact Ajer Lodhi at [your email].
