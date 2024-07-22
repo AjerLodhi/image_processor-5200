@@ -1,5 +1,7 @@
 Image Processor 
-Overview
+
+Overview:
+
 A comprehensive image processing tool. This project leverages Python with the pillow library to provide a robust set of image manipulation features, including flipping, rotating, resizing, and converting images to grayscale. The application is built with a modular architecture, ensuring extensibility and maintainability. The image processing system follows a Pipe and Filter architecture, where data flows through a series of processing components sequentially. Each component performs a specific image processing operation, and the system is designed to be modular and extensible.
  
 Components:
@@ -37,8 +39,7 @@ Features:
 6) Rotate Left/Right: Rotate images left or right by 90 degrees.
 
 Prerequisites:
-1) .NET 5.0 or higher
-2) Visual Studio 2019 or higher
+1) Visual Studio 2019 or higher
 
 Installation:
 1) Clone the repository: git clone https://github.com/AjerLodhi/image_processor-5200.git
@@ -50,14 +51,8 @@ Usage:
 2) Use the GUI to upload an image and apply the desired transformations.
 3) Save the processed image to your local machine.
 
-Code Structure:
-1) Controllers: Handles the user interface and interaction.
-2) Services: Contains the business logic for image processing.
-3) Utilities: Helper functions for common tasks.
-4) Models: Data models representing images and their properties.
-
 Contribution: 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 Contact: 
-For any inquiries or feedback, please contact Ajer Lodhi at [your email].
+For any inquiries or feedback, please contact Ajer Lodhi at lodhiajer@gmail.com.
