@@ -3,7 +3,6 @@ Overview
 A comprehensive image processing tool designed as a solo project for CPSC 5200 Software Architecture at Seattle University. This project leverages C# and .NET to provide a robust set of image manipulation features, including flipping, rotating, resizing, and converting images to grayscale. The application is built with a modular architecture, ensuring extensibility and maintainability.
 
 Features:
-
 1) Flip Images: Horizontally and vertically.
 2) Rotate Images: Rotate images by any degree.
 3) Grayscale Conversion: Convert images to grayscale.
@@ -11,17 +10,14 @@ Features:
 5) Thumbnail Generation: Create thumbnails of images.
 6) Rotate Left/Right: Rotate images left or right by 90 degrees.
 
-Getting Started
-  
 Prerequisites:
 1) .NET 5.0 or higher
 2) Visual Studio 2019 or higher
 
 Installation:
-1) Clone the repository: sh
-2) Copy code: git clone https://github.com/AjerLodhi/image_processor-5200.git
-3) Open the solution file image_processor.sln in Visual Studio.
-4) Build the solution to restore the necessary packages and dependencies.
+1) Clone the repository: git clone https://github.com/AjerLodhi/image_processor-5200.git
+2)  Open the solution file image_processor.sln in Visual Studio.
+3)   Build the solution to restore the necessary packages and dependencies.
 
 Usage:
 1) Run the application from Visual Studio.
