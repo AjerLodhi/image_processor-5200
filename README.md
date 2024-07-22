@@ -2,13 +2,14 @@ Image Processor
 Overview
 A comprehensive image processing tool designed as a solo project for CPSC 5200 Software Architecture at Seattle University. This project leverages C# and .NET to provide a robust set of image manipulation features, including flipping, rotating, resizing, and converting images to grayscale. The application is built with a modular architecture, ensuring extensibility and maintainability.
 
-Features
-Flip Images: Horizontally and vertically.
-Rotate Images: Rotate images by any degree.
-Grayscale Conversion: Convert images to grayscale.
-Resize Images: Resize images to specified dimensions.
-Thumbnail Generation: Create thumbnails of images.
-Rotate Left/Right: Rotate images left or right by 90 degrees.
+Features:
+
+1) Flip Images: Horizontally and vertically.
+2) Rotate Images: Rotate images by any degree.
+3) Grayscale Conversion: Convert images to grayscale.
+4) Resize Images: Resize images to specified dimensions.
+5) Thumbnail Generation: Create thumbnails of images.
+6) Rotate Left/Right: Rotate images left or right by 90 degrees.
 
 Getting Started
   Prerequisites
